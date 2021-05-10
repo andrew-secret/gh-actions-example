@@ -6,8 +6,8 @@ on:
       - alpha
 
 jobs:
-  release:
-    name: Release
+  pre-release:
+    name: Pre-release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
