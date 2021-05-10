@@ -1,5 +1,5 @@
 {
-  "name": "~TODO~",
+  "name": "gh-actions-example",
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
@@ -7,6 +7,9 @@
     "preview": "svelte-kit preview",
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --write --plugin-search-dir=. ."
+  },
+  "release": {
+    "branches": ["main", "alpha"]
   },
   "devDependencies": {
     "@sveltejs/kit": "next",
