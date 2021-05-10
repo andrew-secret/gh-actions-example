@@ -1,3 +1,10 @@
+## [1.0.4-alpha.3](https://github.com/andrew-secret/gh-actions-example/compare/v1.0.4-alpha.2...v1.0.4-alpha.3) (2021-05-10)
+
+
+### Bug Fixes
+
+* trigger release ([cd3c53a](https://github.com/andrew-secret/gh-actions-example/commit/cd3c53a31d9fcf1371a0cec31b9ac30c5627cdcc))
+
 ## [1.0.4-alpha.2](https://github.com/andrew-secret/gh-actions-example/compare/v1.0.4-alpha.1...v1.0.4-alpha.2) (2021-05-10)
 
 
