@@ -9,9 +9,22 @@
     "format": "prettier --write --plugin-search-dir=. ."
   },
   "release": {
-    "branches": ["main", "next", { "name": "beta", "prerelease": true }, { "name": "alpha", "prerelease": true }],
+    "branches": [
+      "main",
+      "next",
+      {
+        "name": "beta",
+        "prerelease": true
+      },
+      {
+        "name": "alpha",
+        "prerelease": true
+      }
+    ],
     "plugins": [
-      ["@semantic-release/commit-analyzer"],
+      [
+        "@semantic-release/commit-analyzer"
+      ],
       "@semantic-release/release-notes-generator",
       [
         "@semantic-release/changelog",
