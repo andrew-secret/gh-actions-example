@@ -1,9 +1,9 @@
-name: Release
+name: Pre-release
 on:
   push:
     branches:
-      - main
-      - master
+      - beta
+      - alpha
 
 jobs:
   release:
@@ -36,7 +36,7 @@ jobs:
       - name: semantic-release-dry-run
         run: npx semantic-release --ci --dry-run
 
-      - name: Release
+      - name: Pre-release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
